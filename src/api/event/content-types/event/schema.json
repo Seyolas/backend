@@ -1,0 +1,106 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "deadline": {
+      "type": "date",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "firstTag": {
+      "type": "enumeration",
+      "enum": [
+        "Mobil Programlama / Swift",
+        "Mobil Programlama / Kotlin",
+        "Mobil Programlama / Java",
+        "Mobil Programlama / React Native",
+        "Mobil Programlama / Flutter",
+        "Web Programlama / Backend",
+        "Web Programlama / Frontend",
+        "Web Programlama / Full Stack",
+        "Veri Bilimi",
+        "Görüntü İşleme",
+        "Blokzincir / Web3",
+        "Test/Otomasyon",
+        "Gömülü Sistemler",
+        "Oyun programlama",
+        "Mobil Oyun programlama",
+        "Quantum programlama",
+        "Borsa / Bot",
+        "Siber Güvenlik",
+        "Ağ Mühendisi",
+        "UI/UX Designer"
+      ],
+      "required": true
+    },
+    "secondTag": {
+      "type": "enumeration",
+      "enum": [
+        "Google Cloud",
+        "AWS",
+        "Linux",
+        "SQL/TSQL",
+        "SQL/PL",
+        "C++",
+        "Java",
+        "Python",
+        "Restfull",
+        "Cisco ACI & Cisco CCSP",
+        "Ansible",
+        "Hypervisor",
+        "VMWare",
+        "Xen ",
+        "Selenium",
+        "Larevel",
+        "Django",
+        "Flask",
+        "MVC",
+        "Next.js",
+        "React.js",
+        "Vue.js",
+        "Nuxt.js",
+        "Svelte.js",
+        "Angular.js",
+        "Node.js",
+        "Jquery",
+        "Anime.js",
+        "D3.js",
+        "Three.js",
+        "Php",
+        "Figma",
+        "Zeplin",
+        "Unity",
+        "Unreal Engine",
+        "GameMaker",
+        "Godot",
+        "AppGameKit",
+        "CryEngine",
+        "Amazon Lumberyard",
+        "RPG Maker",
+        "LibGDX",
+        "Urho3D"
+      ]
+    }
+  }
+}
