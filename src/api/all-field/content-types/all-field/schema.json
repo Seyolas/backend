@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "all_fields",
+  "info": {
+    "singularName": "all-field",
+    "pluralName": "all-fields",
+    "displayName": "allField",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstField": {
+      "type": "component",
+      "repeatable": true,
+      "component": "fields.fields"
+    },
+    "secondField": {
+      "type": "component",
+      "repeatable": true,
+      "component": "fields.fields"
+    }
+  }
+}
