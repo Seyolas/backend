@@ -101,6 +101,15 @@
         "Xen ",
         "Zeplin"
       ]
+    },
+    "eventType": {
+      "type": "enumeration",
+      "enum": [
+        "Staj",
+        "İşyeri",
+        "İş"
+      ],
+      "required": true
     }
   }
 }
