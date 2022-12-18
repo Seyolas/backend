@@ -110,6 +110,10 @@
         "İş"
       ],
       "required": true
+    },
+    "applicationCriteria": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
