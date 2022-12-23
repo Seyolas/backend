@@ -114,6 +114,14 @@
     "applicationCriteria": {
       "type": "richtext",
       "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "companyName": {
+      "type": "string",
+      "required": true
     }
   }
 }
